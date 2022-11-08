@@ -1,0 +1,436 @@
+/* Color*/
+/* Main bg dark green : #255c37 */
+/* Secondary bg dark green : #419151 */
+/* second peach : #f9efd7  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Root */
+* {
+  font-family: Arial, Verdana, sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.greenpeach {
+  background-color: #255c37;
+  color: #f9efd7;
+}
+
+.peachbg {
+  background-color: #f9efd7;
+}
+
+.peachgreen {
+  background-color: #f9efd7;
+  color: #255c37;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+h2 {
+  color: #255c37;
+  font-weight: 900;
+  font-size: 5vmin;
+}
+
+h4 {
+  font-weight: 700;
+}
+
+h6 {
+  color: gray;
+}
+
+p {
+  font-weight: 600;
+  font-size: 3vmin;
+  color: black;
+  font-weight: 400;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+#mainnavbar {
+  background-color: #255331;
+  z-index: 9999;
+}
+
+nav form {
+  width: inherit;
+}
+
+#logo {
+  width: 13vmax;
+}
+
+#product #price {
+  color: #419151;
+}
+
+section {
+  padding-top: 3rem;
+}
+
+.gold {
+  color: rgb(243, 156, 18);
+}
+
+.nav-link {
+  font-size: 18px;
+}
+
+#socialmedia li {
+  font-size: 22px;
+}
+
+#socialmedia a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#socialmedia img {
+  width: 45vw;
+}
+
+#wall {
+  z-index: 999;
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+#wall img {
+  width: 100vw;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.afternav {
+  padding: 15vmin 0 0 0;
+}
+
+.card {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  border: 1px solid #ecb73f;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+  transition: all ease 0.2s;
+}
+
+.card-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Akhir root */
+
+/* Home Page*/
+#hero {
+  overflow: hidden;
+}
+
+#hero img {
+  height: 55vmin;
+  width: auto;
+}
+
+#comicpanel img {
+  width: 74vw;
+}
+
+#comicpanel .content {
+  background-color: #f4f4f4;
+}
+
+#categories .box {
+  overflow: hidden;
+}
+
+#categories .box img {
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+}
+
+/* Search Page  */
+.hidden {
+  display: none;
+}
+
+.pagination a {
+  color: #419151;
+}
+
+.pagination a:hover {
+  color: #419151;
+}
+
+.pagination .active a {
+  border-color: #255c37;
+  background-color: #419151;
+  color: #f9efd7;
+}
+
+/* Product detail page  */
+.activepic {
+  border: 1px solid black;
+}
+
+#mainpic {
+  width: 100%;
+}
+
+#product .description p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#product .thumbnail img {
+  width: 20%;
+  height: auto;
+}
+
+#product .thumbnail img:hover {
+  opacity: 50%;
+  cursor: pointer;
+}
+
+#product .seller {
+  background-color: #ecb73f;
+  color: rgb(56, 56, 56);
+}
+
+#product .seller img {
+  width: 100%;
+}
+
+#product .seller a {
+  color: rgb(56, 56, 56);
+}
+
+#product .seller a:hover {
+  color: rgb(116, 115, 115);
+}
+
+/* profil toko  */
+#profiltoko {
+  background-color: white;
+}
+
+#profiltoko .seller img {
+  width: 100%;
+}
+
+/* checkout  */
+#titlecheckout {
+  padding-top: 13vmin;
+  color: white;
+  background-color: #dc7f3d;
+}
+
+.boxform {
+  background-color: white;
+}
+
+#imgprod {
+  width: 100%;
+}
+
+/* paymentmethod  */
+#paymentmethod {
+  min-height: 90vh;
+}
+
+.emoney img {
+  width: 8vmin;
+  height: auto;
+}
+
+/* Seller */
+.container-side {
+  padding-left: 250px;
+}
+
+.container-side-sm {
+  padding-left: 65px;
+}
+
+#sidebar {
+  height: 100vh;
+  width: 250px;
+  background-color: #419151;
+  color: #f9efd7;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+#sidebar li {
+  font-weight: 300;
+}
+
+#sidebar a {
+  text-decoration: none;
+}
+
+#sidebar-sm {
+  height: 110vh;
+  width: 65px;
+  background-color: #419151;
+  color: #f9efd7;
+  position: fixed;
+  top: 10;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+#sidebar-sm li {
+  font-weight: 300;
+}
+
+#sidebar-sm a {
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.activeside {
+  border-radius: 5px;
+  background-color: #255c37;
+}
+
+/* complaint seller page  */
+#complaint .content {
+  background-color: #f4f4f4;
+}
+
+#complaint textarea {
+  margin-right: 0;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: medium;
+}
+
+/* Start Media Query */
+/* Smartphone */
+@media (max-width: 576px) {
+  #wall img {
+    width: inherit;
+  }
+
+  nav form {
+    width: 68vw;
+  }
+
+  .container {
+    padding: 0 8vw 0 8vw;
+  }
+
+  /* Home  */
+  #categories .box img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .products {
+    padding-left: 8vw;
+    padding-right: 8vw;
+  }
+
+  #comicpanel .content {
+    padding: 3vw 3vw 3vw 3vw;
+  }
+
+  #comicpanel img {
+    width: 100%;
+  }
+
+  /* Product  */
+  #product .seller h1 {
+    font-size: medium;
+  }
+
+  #product .seller a {
+    font-size: small;
+  }
+
+  /* Profil toko  */
+  #profiltoko .namatoko {
+    display: flex;
+    justify-content: center;
+    padding: 1vh 0 1vh 0;
+  }
+
+  /* Seller */
+  #sidebar-sm {
+    z-index: 1;
+  }
+
+  .container-side {
+    padding-left: 85px;
+  }
+
+  .container-side-sm {
+    padding-left: 85px;
+  }
+
+  /* dashboard penjual  */
+  /* #profiltoko .container {
+    padding-left: 90px;
+  }
+  #product .container {
+    padding-left: 90px;
+  } */
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+
+  /* Home  */
+  #categories .box {
+    width: fit-content;
+  }
+
+  #categories .box img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Big */
+@media (min-width: 1399px) {
+
+  /*root*/
+  navbar .form-control {
+    width: 100%;
+  }
+
+  /* .container{
+    padding: 0 0 0 0;
+  } */
+  /* Home  */
+  #comicpanel img {
+    width: inherit;
+  }
+
+  /* checkout  */
+  #titlecheckout {
+    padding-top: 10vmin;
+  }
+}
